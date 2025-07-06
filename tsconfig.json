@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2022",                  /* Versão do JavaScript de saída. */
+    "module": "esnext",                 /* Sistema de módulos para o código de saída (ES Modules). */
+    "moduleResolution": "node",         /* Como os módulos são resolvidos. 'node' é padrão para Node.js. */
+    "outDir": "./dist",                 /* Diretório onde os arquivos compilados serão gerados. */
+    "rootDir": "./src",                 /* Diretório raiz dos arquivos TypeScript. */
+    "strict": true,                     /* Habilita todas as verificações de tipo estritas. */
+    "esModuleInterop": true,            /* Permite importações padrão de módulos CommonJS. */
+    "forceConsistentCasingInFileNames": true, /* Garante nomes de arquivo consistentes. */
+    "skipLibCheck": true,               /* Ignora verificações de tipo em arquivos de declaração. */
+    "sourceMap": true                   /* Gera arquivos de mapa de origem para depuração. */
+  },
+  "include": ["src/**/*.ts"],           /* Inclui todos os arquivos .ts na pasta src. */
+  "exclude": ["node_modules", "dist"]   /* Exclui node_modules e dist da compilação. */
+}

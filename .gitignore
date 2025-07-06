@@ -1,0 +1,38 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# TypeScript
+dist/        # Diretório de saída da compilação do TypeScript
+*.tsbuildinfo # Arquivos de cache do TypeScript
+
+# Variáveis de Ambiente
+.env         # Arquivos de variáveis de ambiente (contêm informações sensíveis)
+
+# Logs
+*.log
+logs/
+
+# Editores de Texto e IDEs
+.vscode/     # Diretório de configurações do VS Code (opcional, dependendo se você compartilha settings)
+.idea/       # Diretório de configurações do IntelliJ/WebStorm
+*.sublime-project
+*.sublime-workspace
+.DS_Store    # Arquivos do macOS
+Thumbs.db    # Arquivos do Windows
+
+# Arquivos de cache e temporários
+tmp/
+temp/
+*~
+*.swp
+*.bak
+
+# Dados do banco de dados local (se você tiver algum arquivo de dump aqui)
+*.sql
+*.backup
+
+# Arquivos de upload (se houver uploads de usuário para uma pasta local)
+uploads/
