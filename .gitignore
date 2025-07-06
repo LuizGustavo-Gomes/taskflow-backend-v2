@@ -36,3 +36,5 @@ temp/
 
 # Arquivos de upload (se houver uploads de usuário para uma pasta local)
 uploads/
+
+.env
