@@ -39,5 +39,4 @@ Siga os passos abaixo para configurar e rodar o projeto em sua máquina local.
 ### 1. Clonar o Repositório
 
 ```bash
-git clone <URL_DO_SEU_REPOSITORIO_GIT>
 cd taskflow-backend-v2
